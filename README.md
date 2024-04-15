@@ -2,7 +2,7 @@
 Simple C++ Thread Pool for executing arbitrary number of callbacks on limited number of workers.
 
 Example:
-```
+```C++
 #include <iostream>
 #include <vector>
 #include "ThreadPool.h"
