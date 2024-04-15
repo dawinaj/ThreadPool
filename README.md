@@ -1,8 +1,11 @@
 # ThreadPool
 Simple C++ Thread Pool for executing arbitrary number of callbacks on limited number of workers.
 
+
 Based on [CodeReview](https://codereview.stackexchange.com/questions/174684/c-threadpool-executor-implementation). 
+
 Modified to compile on MSVC and take arbitrary arguments. 
+
 Requires C++23 (for `std::move_only_function`, to compile on MSVC). 
 
 
